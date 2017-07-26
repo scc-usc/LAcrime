@@ -1,0 +1,30 @@
+The first relevant term is : murder
+U can def do a hit dem folks into a rawrxd then dab out of the rawrxd stop pop Milly rock 
+And u murdered it
+
+Traceback (most recent call last):
+  File "scraper.py", line 99, in <module>
+    stream.filter(locations=[-118.5,33.8,-118,34.2], languages=["en"])
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 445, in filter
+    self._start(async)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 361, in _start
+    self._run()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 263, in _run
+    self._read_loop(resp)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 313, in _read_loop
+    line = buf.read_line().strip()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 179, in read_line
+    self._buffer += self._stream.read(self._chunk_size)
+  File "/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/response.py", line 384, in read
+    data = self._fp.read(amt)
+  File "/usr/lib/python2.7/httplib.py", line 588, in read
+    return self._read_chunked(amt)
+  File "/usr/lib/python2.7/httplib.py", line 630, in _read_chunked
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "/usr/lib/python2.7/ssl.py", line 756, in recv
+    return self.read(buflen)
+  File "/usr/lib/python2.7/ssl.py", line 643, in read
+    v = self._sslobj.read(len)
+KeyboardInterrupt

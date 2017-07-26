@@ -1,0 +1,288 @@
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.05,10
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.724046662092using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.270716012707
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.05,15
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.724046662092using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.270716012707
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.05,20
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.724046662092using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.270716012707
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.1,10
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.721824657713using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.27147349023
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.1,15
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.723915955952using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.27104894785
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.1,20
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.723262425252using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.271096521014
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.15,10
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.691435480182using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.299840203688
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.15,15
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.699147142437using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.294138406848
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.15,20
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.704832859524using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.28853408057
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.2,10
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.639153024213using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.35662897481
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.2,15
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.652027578996using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.337104629474
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.2,20
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.670783910074using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.318115802844
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.25,10
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.613861386139using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.409545704029
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.25,15
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.612423618599using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.407255044949
+
+number of training matrices : 256
+number of testing matrices : 110
+for following paramters : 10,10,24,2,0.25,20
+0.724046662092
+0.576675489331using mean method
+0.714766526158using LR with neighbors method
+0.614645622978using LR with neighbors CLUSTERING method
+MSE for LR : 0.270716012707
+MSE for mean method : 0.519259259259
+MSE for neighbor method : 0.27528544206
+MSE for clustering neighbor method : 0.401132764892
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.05,10
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.717576708166using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 2.36170321815
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.05,15
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.717576708166using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 2.36170321815
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.05,20
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.717576708166using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 2.36170321815
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.1,10
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.715550762997using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 2.39647141486
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.1,15
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.715942881417using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 2.39609939991
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.1,20
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.716400352907using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 2.36164283753
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.15,10
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.615233800608using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 34.5646357124
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.15,15
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.649152043917using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 22.4983862211
+
+number of training matrices : 37
+number of testing matrices : 16
+for following paramters : 10,10,168,2,0.15,20
+0.717576708166
+0.673594092082using mean method
+0.709407574421using LR with neighbors method
+0.649217396987using LR with neighbors CLUSTERING method
+MSE for LR : 2.36170321815
+MSE for mean method : 3.89642857143
+MSE for neighbor method : 2.5399529603
+MSE for clustering neighbor method : 6.70752180059
+

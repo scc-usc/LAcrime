@@ -1,0 +1,2 @@
+notes:
+1. remove cell whose prediction is required from cluster - done

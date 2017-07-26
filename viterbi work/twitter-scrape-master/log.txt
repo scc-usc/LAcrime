@@ -1,0 +1,26 @@
+The first relevant term is : murder
+@mshowalter Accusing it of murdering Seth Rich till it melts
+
+The first relevant term is : murder
+Murder to the mind
+
+The first relevant term is : murder
+so the game might not be ENTIRELY based on the Candace Newmaker murder and has more connections with a Dr. Seuss book
+
+The first relevant term is : murder
+.@CillizzaCNN: Rep @BlakeFarenthold just #said something deeply #irresponsible about Seth Rich's murder https://t.co/0xU2RVqx60 @newnewspage
+
+The first relevant term is : murder
+Ohhh yea how to get away with murder is getting deep and deeper got me on edge
+
+The first relevant term is : murder
+Traceback (most recent call last):
+  File "scraper.py", line 99, in <module>
+    stream.filter(locations=[-118.5,33.8,-118,34.2], languages=["en"])
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 445, in filter
+    self._start(async)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 361, in _start
+    self._run()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 294, in _run
+    raise exception
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u2026' in position 115: ordinal not in range(128)

@@ -1,0 +1,27 @@
+# This file is part of stateplane.
+# https://github.com/fitnr/stateplane
+
+# Licensed under the GPLv3 license:
+# http://http://opensource.org/licenses/GPL-3.0
+# Copyright (c) 2015, Neil Freeman <contact@fakeisthenewreal.org>
+
+language: python
+
+python:
+    - 2.7
+    - 3.3
+    - 3.4
+    - 3.5
+
+sudo: true
+
+before_install:
+    - sudo apt-get -qq update
+    - sudo apt-get -qq install -y libgdal1-dev
+    - pip install docutils
+
+install:
+    - make install
+
+script:
+    - make test

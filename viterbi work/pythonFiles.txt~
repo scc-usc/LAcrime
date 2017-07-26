@@ -1,0 +1,59 @@
+All the python codes use python version 2.7.
+
+
+A. crimePrediction/ : 
+
+1. scipt.sh : script to test model for predicting crime using past data
+
+Change parameters in this file to get results for different parameters.
+Check the different component files for more flexibility.
+
+B. crimePrediction/clustering/ :
+
+1. clustering.py - This file takes a numpy data file(produced by ???) as input. The input file contains crime locations in a particular region. Using DBSCAN clustering, this code produces two numpy files, namely cluster_matrix and cluster_cells. The cluster information is used in linear regression prediction.
+
+Usage : python clustering.py rows cols epsilon min_samples
+
+
+2. correlation_clustering.py: This file takes a numpy data file as input. The input file contains a matrix which contains the time series of the crime in respective grid cells. This code prepares a correlation cell matrix.
+
+Usage : python correlation_clustering.py rows cols time_period lookback
+
+3. crimePrediction.py: This code is deprecated. Use crimePredictionKFold.py instead.
+
+4. crimePredictionKFold.py: This code uses regression to predict crime frequency.
+Input : A matrix where each cell corresponds to the grid cell. Each cell contains a time series which represents the 
+number of crime incidents in a particular period of time.(may be 1 day or a week or a month,...)
+
+kFold cross validation has been used
+
+5. crimePredictionNBM.py : NBM model does not work for all data. Needs to be checked.
+
+6. divideBtTimeClustering.py : Load crime grid data and divide into time periods and save for prediction code.
+
+7. gridClustering.py : Naive implementation of a grid clustering algorithm and using the clusters for prediction.
+
+Usage : python gridClustering.py rows cols time_period lookback threshold
+
+8. ra_metric.py : This code calculates the resource allocation metric 
+
+Input : 2 pickle files
+
+Output : graph of number of crimes captured
+
+
+9. ra_improved.py : This code calculates the resource allocation metric 
+Algorithm:
+1. Select the cell with minimum area.
+2. Assign as many resources possible to it subject to requirements
+3. Repeat this step until the resources are finished or all the cells are covered.
+
+Input : 2 pickle files
+
+Output : graph of number of crimes captured
+
+
+10. script_clustering.py :A script to test model while varying parameters
+
+Give executable permission first - chmod +x script_clustering.sh
+Usage : ./script_clustering.sh

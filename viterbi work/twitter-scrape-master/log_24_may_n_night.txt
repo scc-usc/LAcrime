@@ -1,0 +1,18 @@
+The first relevant term is : steal
+The tweet is relevant
+Original tweet : T2| A pair of strikeouts for Atkinson and Jones throws out Brown trying to steal. Scoreless with Herum, Christy, and Castillo due up.
+The first relevant term is : murder
+The tweet is relevant
+Original tweet : I'm so glad I made it to tv without murdering anyone .
+The first relevant term is : kill
+The tweet is relevant
+Traceback (most recent call last):
+  File "scraper.py", line 125, in <module>
+    stream.filter(locations=[-118.5,33.8,-118,34.2], languages=["en"])
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 445, in filter
+    self._start(async)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 361, in _start
+    self._run()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 294, in _run
+    raise exception
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 85-89: ordinal not in range(128)

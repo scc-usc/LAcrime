@@ -1,0 +1,79 @@
+The first relevant term is : murder
+When ur president thinks calling someone a "loser" is a real bad insult...and is a proper term to call a murderer https://t.co/NSk1RMTWiR
+
+The first relevant term is : murder
+Traceback (most recent call last):
+  File "scraper.py", line 99, in <module>
+    stream.filter(locations=[-118.5,33.8,-118,34.2], languages=["en"])
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 445, in filter
+    self._start(async)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 361, in _start
+    self._run()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 294, in _run
+    raise exception
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 27-31: ordinal not in range(128)
+The first relevant term is : murder
+So Hannity, continues to exploit the murder of Seth Rich for political purposes, against the Rich family's wishes. Yet his viewers are...
+
+The first relevant term is : murder
+They are murdering children and no one will hold them accountable. https://t.co/OwuB1swIK7
+
+The first relevant term is : murder
+Traceback (most recent call last):
+  File "scraper.py", line 99, in <module>
+    stream.filter(locations=[-118.5,33.8,-118,34.2], languages=["en"])
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 445, in filter
+    self._start(async)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 361, in _start
+    self._run()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 294, in _run
+    raise exception
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 30-31: ordinal not in range(128)
+Traceback (most recent call last):
+  File "scraper.py", line 125, in <module>
+    stream.filter(locations=[-118.5,33.8,-118,34.2], languages=["en"])
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 445, in filter
+    self._start(async)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 361, in _start
+    self._run()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 263, in _run
+    self._read_loop(resp)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 313, in _read_loop
+    line = buf.read_line().strip()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 179, in read_line
+    self._buffer += self._stream.read(self._chunk_size)
+  File "/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/response.py", line 384, in read
+    data = self._fp.read(amt)
+  File "/usr/lib/python2.7/httplib.py", line 588, in read
+    return self._read_chunked(amt)
+  File "/usr/lib/python2.7/httplib.py", line 630, in _read_chunked
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "/usr/lib/python2.7/ssl.py", line 756, in recv
+    return self.read(buflen)
+  File "/usr/lib/python2.7/ssl.py", line 643, in read
+    v = self._sslobj.read(len)
+KeyboardInterrupt
+The first relevant term is : shoot
+The tweet is relevant
+Original tweet : Shooting something for Spiderman Homecoming!! 
+#SpiderManHomecoming https://t.co/AKhYd4IjaZ
+The first relevant term is : shoot
+The tweet is relevant
+Original tweet : Del Oro's Cathilyn McIntosh runs 2:14.62 to lead girls 800 qualifiers at SJS Masters trials. Shooting Friday for 3rd straight trip to state
+The first relevant term is : kill
+The tweet is relevant
+Original tweet : Facebook be killing me sometimes https://t.co/6NvUIVjOxc
+The first relevant term is : kill
+The tweet is relevant
+Traceback (most recent call last):
+  File "scraper.py", line 128, in <module>
+    stream.filter(locations=[-118.5,33.8,-118,34.2], languages=["en"])
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 445, in filter
+    self._start(async)
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 361, in _start
+    self._run()
+  File "/usr/local/lib/python2.7/dist-packages/tweepy/streaming.py", line 294, in _run
+    raise exception
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 57-58: ordinal not in range(128)

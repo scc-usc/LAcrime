@@ -1,0 +1,243 @@
+gridClustering.py was run with varying count threshold and varying lookback periods.
+
+
+count threshold=0
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,2
+rmse for LR+GC: 1.774668966
+rmse(entire downtown) for LR:23.2032578604
+WAPE for downtown as one cell: 0.118347868173
+WAPE for clustering: 0.780436109384
+Avg number of clusters =100
+73.2992905667using normal Linear regression and grid clustering
+count threshold=0
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,4
+rmse for LR+GC: 1.94012115494
+rmse(entire downtown) for LR:25.3809746023
+WAPE for downtown as one cell: 0.130040222266
+WAPE for clustering: 0.863211067621
+Avg number of clusters =100
+71.2783184671using normal Linear regression and grid clustering
+count threshold=0
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,6
+rmse for LR+GC: 2.06029544817
+rmse(entire downtown) for LR:26.2425026952
+WAPE for downtown as one cell: 0.136611445837
+WAPE for clustering: 0.920995912004
+Avg number of clusters =100
+70.2212677599using normal Linear regression and grid clustering
+count threshold=0
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,8
+rmse for LR+GC: 2.30283520495
+rmse(entire downtown) for LR:28.6497606698
+WAPE for downtown as one cell: 0.148924594452
+WAPE for clustering: 1.03263004534
+Avg number of clusters =100
+68.4333779184using normal Linear regression and grid clustering
+Traceback (most recent call last):
+  File "gridClustering.py", line 65, in <module>
+    lookback = int(sys.argv[4])
+ValueError: invalid literal for int() with base 10: '10:'
+count threshold=100
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,2
+rmse for LR+GC: 1.96344194583
+rmse(entire downtown) for LR:23.2032578604
+WAPE for downtown as one cell: 0.118347868173
+WAPE for clustering: 0.746472981193
+Avg number of clusters =81
+73.0174762072using normal Linear regression and grid clustering
+count threshold=100
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,4
+rmse for LR+GC: 2.14943306575
+rmse(entire downtown) for LR:25.3809746023
+WAPE for downtown as one cell: 0.130040222266
+WAPE for clustering: 0.823822400585
+Avg number of clusters =81
+71.0708475251using normal Linear regression and grid clustering
+count threshold=100
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,6
+rmse for LR+GC: 2.28139497158
+rmse(entire downtown) for LR:26.2425026952
+WAPE for downtown as one cell: 0.136611445837
+WAPE for clustering: 0.876517657512
+Avg number of clusters =81
+70.0032171423using normal Linear regression and grid clustering
+count threshold=100
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,8
+rmse for LR+GC: 2.55054914423
+rmse(entire downtown) for LR:28.6497606698
+WAPE for downtown as one cell: 0.148924594452
+WAPE for clustering: 0.981986262497
+Avg number of clusters =81
+68.2609144153using normal Linear regression and grid clustering
+Traceback (most recent call last):
+  File "gridClustering.py", line 65, in <module>
+    lookback = int(sys.argv[4])
+ValueError: invalid literal for int() with base 10: '10:'
+count threshold=200
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,2
+rmse for LR+GC: 2.2362257967
+rmse(entire downtown) for LR:23.2032578604
+WAPE for downtown as one cell: 0.118347868173
+WAPE for clustering: 0.679793202057
+Avg number of clusters =63
+72.6252844641using normal Linear regression and grid clustering
+count threshold=200
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,4
+rmse for LR+GC: 2.44486111983
+rmse(entire downtown) for LR:25.3809746023
+WAPE for downtown as one cell: 0.130040222266
+WAPE for clustering: 0.745187359592
+Avg number of clusters =63
+70.7395570155using normal Linear regression and grid clustering
+count threshold=200
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,6
+rmse for LR+GC: 2.59643663382
+rmse(entire downtown) for LR:26.2425026952
+WAPE for downtown as one cell: 0.136611445837
+WAPE for clustering: 0.795065463845
+Avg number of clusters =63
+69.7115734902using normal Linear regression and grid clustering
+count threshold=200
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,8
+rmse for LR+GC: 2.8934333477
+rmse(entire downtown) for LR:28.6497606698
+WAPE for downtown as one cell: 0.148924594452
+WAPE for clustering: 0.883554953086
+Avg number of clusters =63
+68.0340472961using normal Linear regression and grid clustering
+Traceback (most recent call last):
+  File "gridClustering.py", line 65, in <module>
+    lookback = int(sys.argv[4])
+ValueError: invalid literal for int() with base 10: '10:'
+count threshold=300
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,2
+rmse for LR+GC: 2.4436427718
+rmse(entire downtown) for LR:23.2032578604
+WAPE for downtown as one cell: 0.118347868173
+WAPE for clustering: 0.632437617778
+Avg number of clusters =53
+72.5626947261using normal Linear regression and grid clustering
+count threshold=300
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,4
+rmse for LR+GC: 2.69065824373
+rmse(entire downtown) for LR:25.3809746023
+WAPE for downtown as one cell: 0.130040222266
+WAPE for clustering: 0.693498627129
+Avg number of clusters =53
+70.7530292201using normal Linear regression and grid clustering
+count threshold=300
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,6
+rmse for LR+GC: 2.85523040627
+rmse(entire downtown) for LR:26.2425026952
+WAPE for downtown as one cell: 0.136611445837
+WAPE for clustering: 0.739534990836
+Avg number of clusters =53
+69.7575428925using normal Linear regression and grid clustering
+count threshold=300
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,8
+rmse for LR+GC: 3.16343358801
+rmse(entire downtown) for LR:28.6497606698
+WAPE for downtown as one cell: 0.148924594452
+WAPE for clustering: 0.81616991726
+Avg number of clusters =53
+68.1931093297using normal Linear regression and grid clustering
+Traceback (most recent call last):
+  File "gridClustering.py", line 65, in <module>
+    lookback = int(sys.argv[4])
+ValueError: invalid literal for int() with base 10: '10:'
+count threshold=400
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,2
+rmse for LR+GC: 2.65165311296
+rmse(entire downtown) for LR:23.2032578604
+WAPE for downtown as one cell: 0.118347868173
+WAPE for clustering: 0.587369961957
+Avg number of clusters =45
+72.523027064using normal Linear regression and grid clustering
+count threshold=400
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,4
+rmse for LR+GC: 2.90192290248
+rmse(entire downtown) for LR:25.3809746023
+WAPE for downtown as one cell: 0.130040222266
+WAPE for clustering: 0.640932409299
+Avg number of clusters =45
+70.891834201using normal Linear regression and grid clustering
+count threshold=400
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,6
+rmse for LR+GC: 3.08219598135
+rmse(entire downtown) for LR:26.2425026952
+WAPE for downtown as one cell: 0.136611445837
+WAPE for clustering: 0.684071209242
+Avg number of clusters =45
+69.958364611using normal Linear regression and grid clustering
+count threshold=400
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,8
+rmse for LR+GC: 3.42946258759
+rmse(entire downtown) for LR:28.6497606698
+WAPE for downtown as one cell: 0.148924594452
+WAPE for clustering: 0.761616602609
+Avg number of clusters =45
+68.3174711873using normal Linear regression and grid clustering
+Traceback (most recent call last):
+  File "gridClustering.py", line 65, in <module>
+    lookback = int(sys.argv[4])
+ValueError: invalid literal for int() with base 10: '10:'
+count threshold=500
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,2
+rmse for LR+GC: 2.82390467593
+rmse(entire downtown) for LR:23.2032578604
+WAPE for downtown as one cell: 0.118347868173
+WAPE for clustering: 0.565016274958
+Avg number of clusters =41
+72.0678854664using normal Linear regression and grid clustering
+count threshold=500
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,4
+rmse for LR+GC: 3.08101101352
+rmse(entire downtown) for LR:25.3809746023
+WAPE for downtown as one cell: 0.130040222266
+WAPE for clustering: 0.617280784861
+Avg number of clusters =41
+70.6122046715using normal Linear regression and grid clustering
+count threshold=500
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,6
+rmse for LR+GC: 3.27620336283
+rmse(entire downtown) for LR:26.2425026952
+WAPE for downtown as one cell: 0.136611445837
+WAPE for clustering: 0.65905714885
+Avg number of clusters =41
+69.7125482419using normal Linear regression and grid clustering
+count threshold=500
+FYI - Smoothing is done to data.
+for following paramters : 10,10,168,8
+rmse for LR+GC: 3.64073529666
+rmse(entire downtown) for LR:28.6497606698
+WAPE for downtown as one cell: 0.148924594452
+WAPE for clustering: 0.734154318229
+Avg number of clusters =41
+68.2124058896using normal Linear regression and grid clustering
+Traceback (most recent call last):
+  File "gridClustering.py", line 65, in <module>
+    lookback = int(sys.argv[4])
+ValueError: invalid literal for int() with base 10: '10:'
